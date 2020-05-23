@@ -17,7 +17,6 @@ public class Event implements Comparable<Event>{
 	private EventType type ;
 	private Paziente paziente ;
 	
-
 	/**
 	 * @param time
 	 * @param type
@@ -46,7 +45,6 @@ public class Event implements Comparable<Event>{
 		return paziente;
 	}
 
-	
 	@Override
 	public String toString() {
 		return "Event ["+time + ", " + type + ", " + paziente + "]";
